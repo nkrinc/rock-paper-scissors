@@ -20,5 +20,5 @@ elsif cpu == "paper" && choice == "scissors"
 elsif cpu == "scissors" && choice == "rock"
   puts win
 elsif cpu == "scissors" && choice == "paper"
-  puts lost
+  puts lose
 end
