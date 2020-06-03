@@ -9,7 +9,7 @@ if cpu == choice
   puts "It's a tie! cpu chose " + cpu
 end
 if cpu == "rock" && choice == "scissors"
-  puts lost
+  puts lose
 
 elsif cpu == "rock" && choice == "paper"
   puts win
