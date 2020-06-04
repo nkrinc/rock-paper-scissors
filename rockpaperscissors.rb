@@ -2,6 +2,10 @@ def game
   puts "Rock, paper scissors! choose one!"
   choices = ["rock","paper","scissors"]
   choice = gets.chomp
+
+  if choice.empty?
+    puts "Invalid input"
+  end
   choice = choice.downcase
   cpu = choices.sample  #.sample chooses randomly from the array
   lose = "You lost! cpu chose " + cpu
